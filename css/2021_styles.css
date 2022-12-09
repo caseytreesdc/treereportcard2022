@@ -1,0 +1,5 @@
+.edit-needed {
+    color: purple;
+    font-weight: 700;
+    background: linear-gradient(to top, skyblue 50%, transparent 50%);
+}

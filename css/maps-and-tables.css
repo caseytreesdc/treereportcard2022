@@ -1,0 +1,110 @@
+.map-table__heading {
+    text-align: center;
+    color: #2c1010;
+    margin: 90px auto 45px auto;
+    text-decoration: underline;
+    font-size: 1.65rem;
+}
+
+iframe {
+    width: 100%;
+    height: 90vh;
+}
+
+.__table {
+    border: 2px solid #3768b2;
+}
+
+.__table {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.__table th {
+    text-align: center;
+    font-weight: bold;
+}
+
+.__table td,
+.__table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.__table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.__table .last-row {
+    background: rgba(55, 104, 178, .3);
+}
+
+.__table .last-row td {
+    font-weight: bold;
+}
+
+.legends {
+    margin: 10px auto;
+    width: 80%;
+}
+
+.legends {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.legends>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.legends p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.legends img {
+    width: 300px;
+    /* height: 30px; */
+    /* object-fit: cover; */
+}
+
+.legends>div>div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.legends>div>div>div {
+    display: flex;
+    align-items: center;
+}
+
+.point-left,
+.point-right {
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+}
+
+.arrow-body {
+    width: 140px;
+    height: 1px;
+    background: #2c1010;
+}
+
+.point-left {
+    border-bottom: solid 1px #2c1010;
+    border-left: solid 1px #2c1010;
+
+}
+
+.point-right {
+    border-top: solid 1px #2c1010;
+    border-right: solid 1px #2c1010;
+}
